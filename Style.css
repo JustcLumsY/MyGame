@@ -1,0 +1,31 @@
+body 
+{
+    background: rgb(34, 31, 20);
+
+}
+
+#canvas1 
+{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 600px;
+    background-image: url("backgroundImage.jpg");
+    font-family: 'Orbitron', sans-serif;
+    background-size: cover;
+}
+
+#MainBorder 
+{
+    background-image: url(Main-Border1.png);
+    height: 655px;
+    background-repeat: round;
+    width: 960px;
+    position: relative;
+    left: 471px;
+    top: 135px;
+}
+
