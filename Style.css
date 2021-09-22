@@ -21,11 +21,12 @@ body
 #MainBorder 
 {
     background-image: url(Main-Border1.png);
-    height: 655px;
+    position: absolute;
     background-repeat: round;
-    width: 960px;
-    position: relative;
-    left: 471px;
-    top: 135px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 950px;
+    height: 650px;
 }
 
